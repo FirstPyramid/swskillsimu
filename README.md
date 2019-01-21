@@ -6,6 +6,8 @@
 * Change wifi pages, Soulworker HQ to Kor wiki - 위키 페이지 변경, Soulworker HQ -> 나무위키
 * Add new character named by Chii Aruel - 새 캐릭터인 치이 아루엘 추가
 
+[소울워커 스킬 시뮬레이터 한섭버전 바로가기](https://level120.github.io/swskillsimu/)
+
 # SoulWorker Skill Simulator
 This is the skill tree simulator for SoulWorker game which is developed by Lion Games.
 
