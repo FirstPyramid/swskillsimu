@@ -1,7 +1,3 @@
----
-permalink: /docs/index.html
----
-
 # Additional features(추가된 기능)
 
 * Level up to 63 - 63레벨 확장
