@@ -1,1 +1,1567 @@
-{"CharacterName":"Iris Yuma","CharacterWikiURL":"https://wiki.soulworkerhq.com/w/Iris_Yuma","MaxLevel":60,"AvailableClass":{"0":{"Name":"Base","Cover":"../images/bg-iris1.png"},"1":{"Name":"Upgraded","Cover":"../images/bg-iris2.png","RequiredLevel":57}},"Skills":{"HammerCrash":{"Name":"Hammer Crash","DefaultLevel":1,"ID":1,"Icon":"../skillicons/I1-1.png","Levels":{"0":{"Description":"Swings the hammer to attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_HammerCrash.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"","RequiredLevel":4,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":7,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":10,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":13,"RequiredSP":3}},"Extensions":["HammerCrash-ContinuousExplosion","HammerCrash-FullSwing"]},"HammerCrash-ContinuousExplosion":{"Visible":false,"Name":"Continuous Explosion","ID":2,"Icon":"../skillicons/I1-1A.png","Levels":{"0":{"Description":"Adds an additional explosion on the ground","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_HammerCrash_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":13,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":23,"RequiredSP":2}}},"HammerCrash-FullSwing":{"Visible":false,"Name":"Full Swing","ID":3,"Icon":"../skillicons/I1-1B.png","Levels":{"0":{"Description":"Launch an additional attack after the last attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_HammerCrash_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":13,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":23,"RequiredSP":2}}},"CamelSpin":{"Name":"Camel Spin","DefaultLevel":1,"ID":4,"Icon":"../skillicons/I1-2.png","Levels":{"0":{"Description":"Take a short leap forward and then strike with a 360° rotation","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_CamelSpin.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"","RequiredLevel":6,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":11,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":21,"RequiredSP":3}},"Extensions":["CamelSpin-BladeWings"]},"AssaultDive":{"Name":"Assault Dive","DefaultLevel":1,"ID":5,"Icon":"../skillicons/I1-3.png","Levels":{"0":{"Description":"Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_AssaultDive.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"","RequiredLevel":5,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":9,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":13,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":17,"RequiredSP":3}},"Extensions":["AssaultDive-Shatter","AssaultDive-Emission"]},"AssaultDive-Shatter":{"Visible":false,"Name":"Shatter","ID":6,"Icon":"../skillicons/I1-3A.png","Levels":{"0":{"Description":"Replaces the additional attack with an additional consecutive attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_AssaultDive_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":17,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":27,"RequiredSP":2}}},"AssaultDive-Emission":{"Visible":false,"Name":"Emission","ID":7,"Icon":"../skillicons/I1-3B.png","Levels":{"0":{"Description":"Increases the range of the last attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_AssaultDive_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":17,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":27,"RequiredSP":2}}},"FireSomersault":{"Name":"Fire Somersault","ID":8,"Icon":"../skillicons/I1-4.png","Levels":{"0":{"Description":"Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_FireSomersault.{{auto}}"}},"1":{"Effect":"","RequiredLevel":4,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":8,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":12,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":20,"RequiredSP":3}},"Extensions":["FireSomersault-HellFire"]},"FireSomersault-HellFire":{"Visible":false,"Name":"Hell Fire","ID":9,"Icon":"../skillicons/I1-4A.png","Levels":{"0":{"Description":"Adds attack zones in front of the base one","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_FireSomersault_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":20,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":25,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":30,"RequiredSP":2}}},"SpiralPierce":{"Name":"Spiral Pierce","ID":10,"Icon":"../skillicons/I1-5.png","Levels":{"0":{"Description":"Projects a drill which continuously attacks at gun point. Shock waves are released at the end","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_SpiralPierce.{{auto}}"}},"1":{"Effect":"","RequiredLevel":6,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":10,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":14,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":18,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":22,"RequiredSP":3}},"Extensions":["SpiralPierce-Gale"]},"SpiralPierce-Gale":{"Visible":false,"Name":"Gale","ID":11,"Icon":"../skillicons/I1-5A.png","Levels":{"0":{"Description":"A whirlwind with a pulling effect is added","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_SpiralPierce_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":27,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":32,"RequiredSP":2}}},"PulseFire":{"Name":"Pulse Fire","ID":12,"Icon":"../skillicons/I1-6.png","Levels":{"0":{"Description":"Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_PulseFire.{{auto}}"}},"1":{"Effect":"","RequiredLevel":8,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":12,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":20,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":24,"RequiredSP":3}},"Extensions":["PulseFire-RapidShot","PulseFire-PowerShot"]},"PulseFire-RapidShot":{"Visible":false,"Name":"Rapid Shot","ID":13,"Icon":"../skillicons/I1-6A.png","Levels":{"0":{"Description":"Increases the number of shots","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_PulseFire_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":24,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":29,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":34,"RequiredSP":2}}},"PulseFire-PowerShot":{"Visible":false,"Name":"Power Shot","ID":14,"Icon":"../skillicons/I1-6B.png","Levels":{"0":{"Description":"Fire long-range bullets","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_PulseFire_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":24,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":29,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":34,"RequiredSP":2}}},"LimitBreak":{"Name":"Limit Break","ID":15,"Icon":"../skillicons/I1-7.png","Levels":{"0":{"Description":"Releases soul energy within the body to amplify the damage of the next attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_LimitBrake.{{auto}}"}},"1":{"Effect":"","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":20,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":25,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":30,"RequiredSP":3}}},"BulletStorm":{"Name":"Bullet Storm","ID":16,"Icon":"../skillicons/I1-8.png","Levels":{"0":{"Description":"Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_BulletStorm.{{auto}}"}},"1":{"Effect":"","RequiredLevel":13,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":23,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":28,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":33,"RequiredSP":3}},"Extensions":["BulletStorm-RangeIncrease","BulletStorm-MeteorFall"]},"BulletStorm-RangeIncrease":{"Visible":false,"Name":"Range Increase","ID":17,"Icon":"../skillicons/I1-8A.png","Levels":{"0":{"Description":"Extends the attack range","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_BulletStorm_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":33,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":43,"RequiredSP":2}}},"BulletStorm-MeteorFall":{"Visible":false,"Name":"Meteor Fall","ID":18,"Icon":"../skillicons/I1-8B.png","Levels":{"0":{"Description":"Attack with series of exploding meteorites . Deals continuous damage in the area","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_BulletStorm_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":33,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":43,"RequiredSP":2}}},"FullBurst":{"Name":"Full Burst","ID":19,"Icon":"../skillicons/I1-9.png","Levels":{"0":{"Description":"Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_FullBurst.{{auto}}"}},"1":{"Effect":"","RequiredLevel":17,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":27,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":32,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":37,"RequiredSP":3}},"Extensions":["FullBurst-Rend"]},"EternalAbyss":{"Name":"Eternal Abyss","ID":20,"Icon":"../skillicons/I1-10.png","Assignable":false,"Levels":{"0":{"Description":"While in mid-air, throw a weapon towards the ground to create a black hole that pulls enemies","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_EternalAbyss.{{auto}}"}},"1":{"Effect":"","RequiredLevel":21,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":26,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":31,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":36,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":41,"RequiredSP":3}}},"Earthquake":{"Name":"Earthquake","ID":21,"Icon":"../skillicons/I1-11.png","Levels":{"0":{"Description":"Insert the weapon into the ground then shoot towards the ground to create several shock waves","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_Earthquake.{{auto}}"}},"1":{"Effect":"","RequiredLevel":28,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":32,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":36,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":40,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":44,"RequiredSP":3}},"Extensions":["Earthquake-Volcano","Earthquake-FirePillar"]},"Earthquake-Volcano":{"Visible":false,"Name":"Volcano","ID":22,"Icon":"../skillicons/I1-11A.png","Levels":{"0":{"Description":"Generates a volcano after the last attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_Earthquake_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":44,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":49,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":54,"RequiredSP":2}}},"Earthquake-FirePillar":{"Visible":false,"Name":"Fire Pillar","ID":23,"Icon":"../skillicons/I1-11B.png","Levels":{"0":{"Description":"Generates a volcano after the last attack","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_Earthquake_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":44,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":49,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":54,"RequiredSP":2}}},"ElectricCannon":{"Name":"Electric Cannon","ID":24,"Icon":"../skillicons/I1-12.png","Levels":{"0":{"Description":"Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_ElectricCannon.{{auto}}"}},"1":{"Effect":"","RequiredLevel":34,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":42,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":46,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":50,"RequiredSP":3}}},"ExceedDriver":{"Name":"Exceed Driver","ID":25,"Icon":"../skillicons/I1-13.png","Levels":{"0":{"Description":"Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_ExceedDriver.{{auto}}"}},"1":{"Effect":"","RequiredLevel":42,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":45,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":48,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":51,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":54,"RequiredSP":3}}},"CamelSpin-BladeWings":{"Visible":false,"Name":"Blade Wings","ID":26,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_HamerStoll_Skill_CamelSpin_A.png","Levels":{"0":{"Description":"???","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_CamelSpin_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":58,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":60,"RequiredSP":2}}},"FullBurst-Rend":{"Visible":false,"Name":"Rend","ID":27,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_HamerStoll_Skill_FullBurst_A.png","Levels":{"0":{"Description":"???","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_FullBurst_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":59,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":60,"RequiredSP":2}}},"PulverizerHeadbutt":{"Name":"Pulverizer Headbutt","ID":28,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_HamerStoll_Skill_RhinoHeadButt.png","Assignable":false,"Levels":{"0":{"Description":"???","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_PulverizeHeadButt.{{auto}}"}},"1":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":58,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":59,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":60,"RequiredSP":3}}},"OperationAsh":{"Name":"Operation Ash","ID":29,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_HamerStoll_Skill_CombatFalcons.png","Levels":{"0":{"Description":"???","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Skill_Operation Ashes.{{auto}}"}},"1":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":57,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":58,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":59,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":60,"RequiredSP":3}}},"BasicAttackMastery":{"Passive":true,"Name":"Basic Attack Mastery","ID":1002,"DefaultLevel":1,"Icon":"../skillicons/Sh-1.png","Levels":{"0":{"Description":"Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Attack_01.{{auto}}"}},"1":{"Effect":"SG Gain +20%.\nUnlock alternative attack “A”","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"SG Gain +70%.\nUnlock additional basic attack","RequiredLevel":5,"RequiredSP":1,"Preview":{"Video":"../skillpreviews/iris/B_Attack_02.{{auto}}"}},"3":{"Effect":"SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack","RequiredLevel":10,"RequiredSP":2,"Preview":{"Video":"../skillpreviews/iris/B_Attack_04_02.{{auto}}"}},"4":{"Effect":"SG Gain +200%\nUnlock alternative attack “C”","RequiredLevel":15,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":20,"RequiredSP":2,"Preview":{"Video":"../skillpreviews/iris/B_Attack_05.{{auto}}"}}}},"SpecialAbilityMastery":{"Passive":true,"DefaultLevel":1,"ID":1001,"Name":"Special Ability Mastery","Icon":"../skillicons/Sh-2I.png","Levels":{"0":{"Description":"[Ground]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. SG gain varies on attack and monster-type.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_S_Attack_N.{{auto}}"}},"1":{"Effect":"[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSA Damage: 197%\nCooldown: 10s","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSA Damage: 202%\nCooldown: 10s\nSG Gain: +20%","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSA Damage: 249%\nCooldown: 10s\nSG Gain: +70%","RequiredLevel":30,"RequiredSP":2}}},"EmergencyDodge":{"Passive":true,"Name":"Emergency Dodge","ID":1004,"DefaultLevel":1,"Icon":"../skillicons/Sh-3.png","Levels":{"0":{"Description":"Swiftly dodge in a direction. Negate damage during an emergency dodge.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Evade_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 20","RequiredLevel":0,"RequiredSP":0}}},"RisingRoll":{"Passive":true,"Name":"Rising Roll","ID":1003,"DefaultLevel":1,"Icon":"../skillicons/Sh-4.png","Levels":{"0":{"Description":"When downed, get up by rolling in a direction. During the roll, damage is negated","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Roll_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 25","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Stamina Cost: 15","RequiredLevel":17,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 15\nFaster Rolling Speed","RequiredLevel":34,"RequiredSP":2}}},"Dash":{"Passive":true,"Name":"Dash","DefaultLevel":1,"ID":1006,"Icon":"../skillicons/Sh-5.png","Levels":{"0":{"Description":"Swiftly dash forward","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Run_F.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Faster Dashing Speed","RequiredLevel":25,"RequiredSP":2}}},"RisingAttack":{"Passive":true,"Name":"Rising Attack","ID":1005,"DefaultLevel":1,"Icon":"../skillicons/Sh-6.png","Levels":{"0":{"Description":"While downed, get up while damaging surrounding enemies","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Rise_Attack.{{auto}}"}},"1":{"Effect":"Stamina Cost: 30\nInvincibility Duration: 1 seconds","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Stamina Cost: 20\nInvincibility Duration: 1 seconds","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 20\nInvincibility Duration: 3 seconds","RequiredLevel":36,"RequiredSP":2}}},"DashAttack":{"Passive":true,"Name":"Dash Attack","DefaultLevel":1,"ID":1008,"Icon":"../skillicons/Sh-7.png","Levels":{"0":{"Description":"Perform an attack while dashing. Different character does different attacks. ","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_N_Attack_Dash.{{auto}}"}},"1":{"Effect":"Damage: 115%\nSA Damage: 38%","RequiredLevel":0,"RequiredSP":0}}},"SpecialDodge":{"Passive":true,"Name":"Special Dodge","ID":1007,"Icon":"../skillicons/Sh-8.png","Levels":{"0":{"Description":"Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_Special_Evade_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 40\nCooldown: 60 seconds","RequiredLevel":4,"RequiredSP":1},"2":{"Effect":"Stamina Cost: 40\nCooldown: 50 seconds","RequiredLevel":21,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 40\nCooldown: 40 seconds","RequiredLevel":38,"RequiredSP":2}}},"SpecialDashAttack":{"Passive":true,"Name":"Special Dash Attack","ID":1010,"Icon":"../skillicons/Sh-9.png","Levels":{"0":{"Description":"Performs a special attack while dashing. Different characters do different special attacks","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/B_S_Attack_N_Dash.{{auto}}"}},"1":{"Effect":"Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds","RequiredLevel":13,"RequiredSP":1}}},"StaminaMastery":{"Passive":true,"Name":"Stamina Mastery","ID":1009,"Icon":"../skillicons/Sh-10.png","Levels":{"0":{"Description":"Increases stamina recovery rate","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"Stamina Recovery Rate: +10%","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"Stamina Recovery Rate: +20%","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"Stamina Recovery Rate: +30%","RequiredLevel":20,"RequiredSP":2},"4":{"Effect":"Stamina Recovery Rate: +40%","RequiredLevel":25,"RequiredSP":2},"5":{"Effect":"Stamina Recovery Rate: +50%","RequiredLevel":30,"RequiredSP":3}}},"ExtremeRush":{"Passive":true,"Name":"Extreme Rush","ID":1013,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_HamerStoll_Skill_SGPassive2.png","Levels":{"0":{"Description":"Provides the ability to gain invulnerable state when using special attack.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/iris/Contributor_iris_ExtremeRush.{{auto}}"}},"1":{"Effect":"Duration: 3s\nCooldown: 60 seconds","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"Duration: 4s\nCooldown: 60 seconds","RequiredLevel":58,"RequiredSP":1},"3":{"Effect":"Duration: 5s\nCooldown: 60 seconds","RequiredLevel":59,"RequiredSP":2}}},"RapidAttack":{"Passive":true,"Name":"Rapid Attack","ID":1011,"RowSpan":{"0":2,"1":1},"Icon":"../skillicons/IP1-2.png","Levels":{"0":{"Description":"Reduces SG Cost of skills","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"SG Cost Rate: -5%","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"SG Cost Rate: -8%","RequiredLevel":20,"RequiredSP":1},"3":{"Effect":"SG Cost Rate: -10%","RequiredLevel":30,"RequiredSP":2}}},"FuryStrike":{"Passive":true,"DefaultLevel":1,"ID":1012,"RowSpan":2,"Name":"Fury Strike","Icon":"../skillicons/HP1-1.png","Levels":{"0":{"Description":"Recovers SG on successful basic attacks. Automatically restore SG at regular time intervals","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"","RequiredLevel":10,"RequiredSP":0}}}}}
+{
+    "CharacterName": "이리스 유마",
+    "CharacterWikiURL": "https://namu.wiki/w/%EC%9D%B4%EB%A6%AC%EC%8A%A4%20%EC%9C%A0%EB%A7%88",
+    "MaxLevel": 63,
+    "AvailableClass": {
+        "0": {
+            "Name": "기본",
+            "Cover": "../images/bg-iris1.png"
+        },
+        "1": {
+            "Name": "승급",
+            "Cover": "../images/bg-iris2.png",
+            "RequiredLevel": 57
+        }
+    },
+    "Skills": {
+        "HammerCrash": {
+            "Name": "해머 크래쉬",
+            "DefaultLevel": 1,
+            "ID": 1,
+            "Icon": "../skillicons/I1-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "헤머를 휘둘러 적을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_HammerCrash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 7,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "HammerCrash-ContinuousExplosion",
+                "HammerCrash-FullSwing"
+            ]
+        },
+        "HammerCrash-ContinuousExplosion": {
+            "Visible": false,
+            "Name": "연속 폭발",
+            "ID": 2,
+            "Icon": "../skillicons/I1-1A.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방 지면이 추가로 폭발합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_HammerCrash_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 23,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "HammerCrash-FullSwing": {
+            "Visible": false,
+            "Name": "풀 스윙",
+            "ID": 3,
+            "Icon": "../skillicons/I1-1B.png",
+            "Levels": {
+                "0": {
+                    "Description": "마지막 공격 이후 추가타가 발생합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_HammerCrash_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 23,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "CamelSpin": {
+            "Name": "카멜 스핀",
+            "DefaultLevel": 1,
+            "ID": 4,
+            "Icon": "../skillicons/I1-2.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방을 향해 낮게 뛰어오른 후 몸을 회전하며 무기로 360도 공격을 합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_CamelSpin.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 6,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 11,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "CamelSpin-BladeWings"
+            ]
+        },
+        "AssaultDive": {
+            "Name": "어썰트 다이브",
+            "DefaultLevel": 1,
+            "ID": 5,
+            "Icon": "../skillicons/I1-3.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방으로 빠르게 도약하여 무기로 찌른 후 2회 연속 폭발 공격으로 마무리 합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_AssaultDive.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 5,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 9,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "AssaultDive-Shatter",
+                "AssaultDive-Emission"
+            ]
+        },
+        "AssaultDive-Shatter": {
+            "Visible": false,
+            "Name": "분쇄",
+            "ID": 6,
+            "Icon": "../skillicons/I1-3A.png",
+            "Levels": {
+                "0": {
+                    "Description": "추가 조작을 통한 연타 공격이 추가됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_AssaultDive_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "AssaultDive-Emission": {
+            "Visible": false,
+            "Name": "방사",
+            "ID": 7,
+            "Icon": "../skillicons/I1-3B.png",
+            "Levels": {
+                "0": {
+                    "Description": "마지막 공격의 거리가 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_AssaultDive_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "FireSomersault": {
+            "Name": "파이어 섬머솔트",
+            "ID": 8,
+            "Icon": "../skillicons/I1-4.png",
+            "Levels": {
+                "0": {
+                    "Description": "제자리에서 공중으로 백덤블링하며 지면을 향해 충격파를 발사합니다. 이후 반동으로 후방으로 빠르게 돌며 후퇴합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_FireSomersault.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 8,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 12,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "FireSomersault-HellFire"
+            ]
+        },
+        "FireSomersault-HellFire": {
+            "Visible": false,
+            "Name": "헬 파이어",
+            "ID": 9,
+            "Icon": "../skillicons/I1-4A.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방에 공격 지대가 추가 됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_FireSomersault_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "SpiralPierce": {
+            "Name": "스파이럴 피어스",
+            "ID": 10,
+            "Icon": "../skillicons/I1-5.png",
+            "Levels": {
+                "0": {
+                    "Description": "총구가 정면을 향하여 찌르며 드릴 형태의 이능력으로 연속 공격합니다. 마무리 충격파를 날립니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_SpiralPierce.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 6,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 14,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "SpiralPierce-Gale"
+            ]
+        },
+        "SpiralPierce-Gale": {
+            "Visible": false,
+            "Name": "질풍",
+            "ID": 11,
+            "Icon": "../skillicons/I1-5A.png",
+            "Levels": {
+                "0": {
+                    "Description": "회오리가 발생되어 당기기 효과가 추가됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_SpiralPierce_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "PulseFire": {
+            "Name": "펄스 파이어",
+            "ID": 12,
+            "Icon": "../skillicons/I1-6.png",
+            "Levels": {
+                "0": {
+                    "Description": "제자리에서 포격 자세를 취합니다. 이후 추가 조작에 따라 다수의 강력한 에너지 구체를 일정 시간 동안 발사합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_PulseFire.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 8,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 12,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "PulseFire-RapidShot",
+                "PulseFire-PowerShot"
+            ]
+        },
+        "PulseFire-RapidShot": {
+            "Visible": false,
+            "Name": "래피드 샷",
+            "ID": 13,
+            "Icon": "../skillicons/I1-6A.png",
+            "Levels": {
+                "0": {
+                    "Description": "발사 개수가 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_PulseFire_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 29,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "PulseFire-PowerShot": {
+            "Visible": false,
+            "Name": "파워 샷",
+            "ID": 14,
+            "Icon": "../skillicons/I1-6B.png",
+            "Levels": {
+                "0": {
+                    "Description": "원거리 탄을 발사합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_PulseFire_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 29,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "LimitBreak": {
+            "Name": "리미트 브레이크",
+            "ID": 15,
+            "Icon": "../skillicons/I1-7.png",
+            "Levels": {
+                "0": {
+                    "Description": "몸 안의 소울 에너지를 방출하여 다음 공격의 데미지를 증폭시킵니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_LimitBrake.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "BulletStorm": {
+            "Name": "블렛 스톰",
+            "ID": 16,
+            "Icon": "../skillicons/I1-8.png",
+            "Levels": {
+                "0": {
+                    "Description": "총구를 위로 들어올린 후 이능력 탄을 발사합니다. 발사된 탄은 공중에서 여러 발의 작은 탄으로 분리되어 지면을 폭격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_BulletStorm.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 23,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 28,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "BulletStorm-RangeIncrease",
+                "BulletStorm-MeteorFall"
+            ]
+        },
+        "BulletStorm-RangeIncrease": {
+            "Visible": false,
+            "Name": "범위 증가",
+            "ID": 17,
+            "Icon": "../skillicons/I1-8A.png",
+            "Levels": {
+                "0": {
+                    "Description": "넓은 범위를 폭넓게 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_BulletStorm_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 43,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "BulletStorm-MeteorFall": {
+            "Visible": false,
+            "Name": "메테오 폴",
+            "ID": 18,
+            "Icon": "../skillicons/I1-8B.png",
+            "Levels": {
+                "0": {
+                    "Description": "운석이 소환되어 연타 공격후 폭발 합니다. 지속 공격 지역이 생성 됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_BulletStorm_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 43,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "FullBurst": {
+            "Name": "풀 버스트",
+            "ID": 19,
+            "Icon": "../skillicons/I1-9.png",
+            "Levels": {
+                "0": {
+                    "Description": "차징 단계에 따라 공격 범위가 증가합니다. 차징 시 성능이 1.8배로 증가하고 최대 2.5배 증가합니다. 무기를 양 손으로 고쳐 잡은 후, 총구의 레이저 빔을 광선검 쓰듯이 적을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_FullBurst.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 37,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "FullBurst-Rend"
+            ]
+        },
+        "EternalAbyss": {
+            "Name": "이터널 어비스",
+            "ID": 20,
+            "Icon": "../skillicons/I1-10.png",
+            "Assignable": false,
+            "Levels": {
+                "0": {
+                    "Description": "공중에 뜬 상태에서 지면을 향해 무기를 집어 던집니다. 무기는 지면에 충돌하여 블랙홀이 생성되고 적들을 끌어당깁니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_EternalAbyss.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 26,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 31,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 41,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "Earthquake": {
+            "Name": "어스 퀘이크",
+            "ID": 21,
+            "Icon": "../skillicons/I1-11.png",
+            "Levels": {
+                "0": {
+                    "Description": "총구를 지면에 무기를 꽂은 후 충격파를 여러 번 발사합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_Earthquake.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 28,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 40,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "Earthquake-Volcano",
+                "Earthquake-FirePillar"
+            ]
+        },
+        "Earthquake-Volcano": {
+            "Visible": false,
+            "Name": "볼케이노",
+            "ID": 22,
+            "Icon": "../skillicons/I1-11A.png",
+            "Levels": {
+                "0": {
+                    "Description": "마지막 공격 이후에 화산 지역을 생성합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_Earthquake_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 49,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "Earthquake-FirePillar": {
+            "Visible": false,
+            "Name": "불기둥",
+            "ID": 23,
+            "Icon": "../skillicons/I1-11B.png",
+            "Levels": {
+                "0": {
+                    "Description": "지면 공격 중 불기둥이 생성되어 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_Earthquake_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 49,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "ElectricCannon": {
+            "Name": "일렉트릭 캐논",
+            "ID": 24,
+            "Icon": "../skillicons/I1-12.png",
+            "Levels": {
+                "0": {
+                    "Description": "총구가 정면을 향하도록 수평으로 무기를 띄우고 올라탑니다. 이후 전방으로 강력한 레이저 빔을 발사합니다. 공격 시 이동이 가능합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_ElectricCannon.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 42,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 46,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 50,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "ExceedDriver": {
+            "Name": "익시드 드라이버",
+            "ID": 25,
+            "Icon": "../skillicons/I1-13.png",
+            "Levels": {
+                "0": {
+                    "Description": "무기를 소울로 분해시켜 자신의 한쪽 팔로 흡수합니다. 이후 팔을 들어올리면 주변에 다수의 에너지 포탈이 나타나 동시에 강력한 에너지를 발사합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_ExceedDriver.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 42,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 45,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 48,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 51,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "CamelSpin-BladeWings": {
+            "Visible": false,
+            "Name": "가시 칼날",
+            "ID": 26,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_HamerStoll_Skill_CamelSpin_A.png",
+            "Levels": {
+                "0": {
+                    "Description": "서브웨폰이 이리스의 공격을 보조하여 같이 전투에 임합니다. 강력한 발차기 공격 및 서브웨폰 발사체 공격으로 마무리합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_CamelSpin_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "FullBurst-Rend": {
+            "Visible": false,
+            "Name": "참격",
+            "ID": 27,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_HamerStoll_Skill_FullBurst_A.png",
+            "Levels": {
+                "0": {
+                    "Description": "단 한 번의 공격으로 전방의 적을 베어버립니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_FullBurst_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "PulverizerHeadbutt": {
+            "Name": "펄버라이저 헤드 버트",
+            "ID": 28,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_HamerStoll_Skill_RhinoHeadButt.png",
+            "Assignable": false,
+            "Levels": {
+                "0": {
+                    "Description": "공중에 뜬 상태에서 거대한 헤머로 적들을 내려찍습니다. 우클릭시 추가 폭발 공격으로 마무리합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_PulverizeHeadButt.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "OperationAsh": {
+            "Name": "오퍼레이션 애쉬즈",
+            "ID": 29,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_HamerStoll_Skill_CombatFalcons.png",
+            "Levels": {
+                "0": {
+                    "Description": "이리스가 전방의 적을 띄운 뒤 서브웨폰 AI에게 지시하여 주변의 적들을 일정시간 동안 타격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Skill_Operation Ashes.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "RapidVulcan": {
+            "Name": "래피드 벌컨",
+            "ID": 30,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Hamerstoll_Skill_Expocalypse.png",
+            "Levels": {
+                "0": {
+                    "Description": "???",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/F_Skill_RapidVulcan.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "???",
+                    "RequiredLevel": 62,
+                    "RequiredSP": 1
+                }
+            }
+        },
+        "BasicAttackMastery": {
+            "Passive": true,
+            "Name": "기본 공격 마스터리",
+            "ID": 1002,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "헤머를 휘둘러 적을 공격합니다.\n스킬 레벨이 올라갈수록 연계 공격의 종류가 증가하고 피해량이 증가합니다.\n공격 시 SG를 획득 할 수 있습니다.\nSG 획득량은 연계 단계와 몬스터 등급에 따라 크게 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Attack_01.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "SG 획득량이 [20%] 증가합니다.\nUnlock alternative attack “A”",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "SG 획득량이 [50%] 증가합니다.\nUnlock additional basic attack",
+                    "RequiredLevel": 5,
+                    "RequiredSP": 1,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Attack_02.{{auto}}"
+                    }
+                },
+                "3": {
+                    "Effect": "SG 획득량이 [70%] 증가합니다.\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 2,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Attack_04_02.{{auto}}"
+                    }
+                },
+                "4": {
+                    "Effect": "SG 획득량이 [120%] 증가합니다.\nUnlock alternative attack “C”",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "SG 획득량이 [200%] 증가합니다.",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Attack_05.{{auto}}"
+                    }
+                }
+            }
+        },
+        "SpecialAbilityMastery": {
+            "Passive": true,
+            "DefaultLevel": 1,
+            "ID": 1001,
+            "Name": "특수 능력 마스터리",
+            "Icon": "../skillicons/Sh-2I.png",
+            "Levels": {
+                "0": {
+                    "Description": "[지상]\n즉시 소울을 회복하고 발화 버프를 획득 합니다.\n[공중]\n지상으로 해머를 내려 꽂으며 내려옵니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_S_Attack_N.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSA Damage: 197%\nCooldown: 10s",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSA Damage: 202%\nCooldown: 10s\nSG Gain: +20%",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSA Damage: 249%\nCooldown: 10s\nSG Gain: +70%",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "EmergencyDodge": {
+            "Passive": true,
+            "Name": "긴급 회피",
+            "ID": 1004,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-3.png",
+            "Levels": {
+                "0": {
+                    "Description": "지정한 방향으로 빠르게 이동합니다.\n긴급 회피 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Evade_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 20",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                }
+            }
+        },
+        "RisingRoll": {
+            "Passive": true,
+            "Name": "구르기",
+            "ID": 1003,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-4.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격을 받아 다운되어 있는 상태에서 지정한 방햐응로 빠르게 구르며 일어섭니다.\n구르기 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Roll_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 25",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 15",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "Dash": {
+            "Passive": true,
+            "Name": "대쉬",
+            "DefaultLevel": 1,
+            "ID": 1006,
+            "Icon": "../skillicons/Sh-5.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방을 향하여 빠르게 질주합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Run_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Faster Dashing Speed",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "RisingAttack": {
+            "Passive": true,
+            "Name": "기상 공격",
+            "ID": 1005,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-6.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격을 받아 다운되어 있는 상태에서 주변의 적들에게 공격을 하며 일어납니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Rise_Attack.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DashAttack": {
+            "Passive": true,
+            "Name": "대쉬 어택",
+            "DefaultLevel": 1,
+            "ID": 1008,
+            "Icon": "../skillicons/Sh-7.png",
+            "Levels": {
+                "0": {
+                    "Description": "달리는 도중 미끄러 지며 전방을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_N_Attack_Dash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 115%\nSA Damage: 38%",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                }
+            }
+        },
+        "SpecialDodge": {
+            "Passive": true,
+            "Name": "특수 회피",
+            "ID": 1007,
+            "Icon": "../skillicons/Sh-8.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격당하는 도중 빠르게 이동합니다.\n특수 회피 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_Special_Evade_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "SpecialDashAttack": {
+            "Passive": true,
+            "Name": "특수 대쉬 어택",
+            "ID": 1010,
+            "Icon": "../skillicons/Sh-9.png",
+            "Levels": {
+                "0": {
+                    "Description": "달리는 도중 몸을 회전하며 공격을 가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/B_S_Attack_N_Dash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                }
+            }
+        },
+        "StaminaMastery": {
+            "Passive": true,
+            "Name": "스태미너 마스터리",
+            "ID": 1009,
+            "Icon": "../skillicons/Sh-10.png",
+            "Levels": {
+                "0": {
+                    "Description": "스태미너 회복량이 영구적으로 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "Stamina Recovery Rate: +10%",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Stamina Recovery Rate: +20%",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Recovery Rate: +30%",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "Stamina Recovery Rate: +40%",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "Stamina Recovery Rate: +50%",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "ExtremeRush": {
+            "Passive": true,
+            "Name": "극쇄",
+            "ID": 1013,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_HamerStoll_Skill_SGPassive2.png",
+            "Levels": {
+                "0": {
+                    "Description": "특수 공격을 사용 시 잠깐동안 무적이 됩니다. ",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/iris/Contributor_iris_ExtremeRush.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Duration: 3s\nCooldown: 60 seconds",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Duration: 4s\nCooldown: 60 seconds",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Duration: 5s\nCooldown: 60 seconds",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "RapidAttack": {
+            "Passive": true,
+            "Name": "쾌속 공격",
+            "ID": 1011,
+            "RowSpan": {
+                "0": 2,
+                "1": 1
+            },
+            "Icon": "../skillicons/IP1-2.png",
+            "Levels": {
+                "0": {
+                    "Description": "소울 소모량 감소",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "SG Cost Rate: -5%",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "SG Cost Rate: -8%",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "SG Cost Rate: -10%",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "FuryStrike": {
+            "Passive": true,
+            "DefaultLevel": 1,
+            "ID": 1012,
+            "RowSpan": 2,
+            "Name": "분노의 일격",
+            "Icon": "../skillicons/HP1-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "기본 공격 성공 시 SG를 회복합니다.\n일정 시간마다 자동으로 SG를 회복합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 0
+                }
+            }
+        }
+    }
+}

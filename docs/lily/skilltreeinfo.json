@@ -1,1 +1,1459 @@
-{"CharacterName":"Lily Bloomerchen","CharacterWikiURL":"https://wiki.soulworkerhq.com/w/Lily_Bloomerchen","MaxLevel":60,"AvailableClass":{"0":{"Name":"Base","Cover":"../images/bg-lily1.png"},"1":{"Name":"Upgraded","Cover":"../images/bg-lily2.png","RequiredLevel":57}},"Skills":{"EvilSlash":{"Name":"Evil Slash","DefaultLevel":1,"ID":1,"Icon":"../skillicons/L1-1.png","Levels":{"0":{"Description":"Quickly rotate the scythe, pushes out the enemy at the end of the blow.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_EvilSlash.{{auto}}"}},"1":{"Effect":"Damage: 182%\nSA Damage: 196%\nSG Cost: 30\nCooldown: 10s","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Damage: 191%\nSA Damage: 206%\nSG Cost: 30\nCooldown: 10s","RequiredLevel":4,"RequiredSP":1},"3":{"Effect":"Damage: 214%\nSA Damage: 230%\nSG Cost: 30\nCooldown: 10s","RequiredLevel":7,"RequiredSP":2},"4":{"Effect":"Damage: 237%\nSA Damage: 255%\nSG Cost: 30\nCooldown: 10s","RequiredLevel":10,"RequiredSP":2},"5":{"Effect":"Damage: 273%\nSA Damage: 294%\nSG Cost: 30\nCooldown: 10s","RequiredLevel":13,"RequiredSP":3}},"Extensions":["EvilSlash-Kusarigama"]},"SpinningDevil":{"Name":"Spinning Devil","DefaultLevel":1,"ID":2,"Icon":"../skillicons/L1-2.png","Levels":{"0":{"Description":"Quickly dash forward, using the speed perform a spinning slash.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_SpinningDevil.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"","RequiredLevel":6,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":11,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":21,"RequiredSP":3}}},"ScytheCutter":{"Name":"Scythe Cutter","DefaultLevel":1,"ID":3,"Icon":"../skillicons/L1-3.png","Levels":{"0":{"Description":"Swiftly raise the scythe. Enemies will be launched in the air.","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_ScytheCuter.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"","RequiredLevel":5,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":9,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":13,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":17,"RequiredSP":3}},"Extensions":["ScytheCutter-ChargeAttack"]},"ScytheCutter-ChargeAttack":{"Visible":false,"Name":"Charge Attack","ID":4,"Icon":"../skillicons/L1-3A.png","Levels":{"0":{"Description":"If charged, it launches the enemy higher.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_ScytheCuter_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":17,"RequiredSP":1}}},"GrimCountdown":{"Name":"Grim Countdown","ID":5,"Icon":"../skillicons/L1-4.png","Levels":{"0":{"Description":"After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_GrimCountdown.{{auto}}"}},"1":{"Effect":"","RequiredLevel":4,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":8,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":12,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":20,"RequiredSP":3}},"Extensions":["GrimCountdown-Lifesteal"]},"GrimCountdown-Lifesteal":{"Visible":false,"Name":"Lifesteal","ID":6,"Icon":"../skillicons/L1-4A.png","Levels":{"0":{"Description":"Steal HP from the afflicted enemies, and heals HP of oneself.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_GrimCountdown_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":20,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":25,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":30,"RequiredSP":2}}},"FearChain":{"Name":"Fear Chain","ID":7,"Icon":"../skillicons/L1-5.png","Levels":{"0":{"Description":"Summons the Grim Reaper in front, the Grim Reaper connects the enemies with a chain, they are drawn towards the center of the attack range.","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FearChain_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":6,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":10,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":14,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":18,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":22,"RequiredSP":3}},"Extensions":["FearChain-RangeIncrease"]},"FearChain-RangeIncrease":{"Visible":false,"Name":"Range Increase","ID":8,"Icon":"../skillicons/L1-5A.png","Levels":{"0":{"Description":"Increase the attack range.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FearChain_A_01.{{auto}}"}},"1":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":27,"RequiredSP":1,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FearChain_A_02.{{auto}}"}},"3":{"Effect":"","RequiredLevel":32,"RequiredSP":2,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FearChain_A_03.{{auto}}"}}}},"DeathGrinder":{"Name":"Death Grinder","ID":9,"Icon":"../skillicons/L1-6.png","Levels":{"0":{"Description":"Attack by throwing the scythe like a boomerang. Attract the enemies attacked when the scythe comes back to the owner.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathGrinder.{{auto}}"}},"1":{"Effect":"","RequiredLevel":8,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":12,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":16,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":20,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":24,"RequiredSP":3}},"Extensions":["DeathGrinder-SummonGrimReaper","DeathGrinder-Whirlwind"]},"DeathGrinder-SummonGrimReaper":{"Visible":false,"Name":"Summon Grim Reaper","ID":10,"Icon":"../skillicons/L1-6A.png","Levels":{"0":{"Description":"Throw the scythe and summon the Grim Reaper.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathGrinder_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":24,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":29,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":34,"RequiredSP":2}}},"DeathGrinder-Whirlwind":{"Visible":false,"Name":"Whirlwind","ID":11,"Icon":"../skillicons/L1-6B.png","Levels":{"0":{"Description":"Create a whirlwind by throwing the scythe forward. Scythe will stop at a point and damage the enemies at the place.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathGrinder_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":24,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":29,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":34,"RequiredSP":2}}},"DeathScythe":{"Name":"Death Scythe","ID":12,"Icon":"../skillicons/L1-7.png","Levels":{"0":{"Description":"Grim Reaper appears, it attracts the enemies around. After the Grim Reaper attacks, the last attack is changed by the next command.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathScythe.{{auto}}"}},"1":{"Effect":"","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":20,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":25,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":30,"RequiredSP":3}},"Extensions":["DeathScythe-Afterimage"]},"CruelSlash":{"Name":"Cruel Slash","ID":13,"Icon":"../skillicons/L1-8.png","Levels":{"0":{"Description":"Deform the sickle to the scimitar form to attack. LMB to quickly perform repeated attacks on the spot for a period of time.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_CruelSlash.{{auto}}"}},"1":{"Effect":"","RequiredLevel":13,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":23,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":28,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":33,"RequiredSP":3}},"Extensions":["CruelSlash-DefensePenetration","CruelSlash-CriticalRateIncrease"]},"CruelSlash-DefensePenetration":{"Visible":false,"Name":"Defense Penetration","ID":14,"Icon":"../skillicons/L1-8A.png","Levels":{"0":{"Description":"Attacks done to the enemy ignore enemy's defense","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_CruelSlash_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":33,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":43,"RequiredSP":2}}},"CruelSlash-CriticalRateIncrease":{"Visible":false,"Name":"Critical Rate Increase","ID":15,"Icon":"../skillicons/L1-8B.png","Levels":{"0":{"Description":"Increases Critical Rate","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_CruelSlash_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":33,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":43,"RequiredSP":2}}},"GrimReaper":{"Name":"Grim Reaper","ID":16,"Icon":"../skillicons/L1-9.png","Assignable":false,"Levels":{"0":{"Description":"Only available in the air. Summons the Grim Reaper, launching the enemies in the air. It will attack the enemies in the air.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_GrimReaper.{{auto}}"}},"1":{"Effect":"","RequiredLevel":17,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":22,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":27,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":32,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":37,"RequiredSP":3}}},"ForceRegion":{"Name":"Force Region","ID":17,"Icon":"../skillicons/L1-10.png","Levels":{"0":{"Description":"The summoned Grim Reaper's roar will grant a buff that increases critical rate to the party members in range, including self.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_ForceRegion.{{auto}}"}},"1":{"Effect":"","RequiredLevel":21,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":26,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":31,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":36,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":41,"RequiredSP":3}}},"DeathTornado":{"Name":"Death Tornado","ID":18,"Icon":"../skillicons/L1-11.png","Levels":{"0":{"Description":"It creates a powerful tornado to attack the enemies in front.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathTornado.{{auto}}"}},"1":{"Effect":"","RequiredLevel":28,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":32,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":36,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":40,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":44,"RequiredSP":3}},"Extensions":["DeathTornado-Induction","DeathTornado-AreaWidener"]},"DeathTornado-Induction":{"Visible":false,"Name":"Induction","ID":19,"Icon":"../skillicons/L1-11A.png","Levels":{"0":{"Description":"Summons a tornado that moves towards the enemy","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathTornado_A.{{auto}}"}},"1":{"Effect":"","RequiredLevel":44,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":49,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":54,"RequiredSP":2}}},"DeathTornado-AreaWidener":{"Visible":false,"Name":"Area Widener","ID":20,"Icon":"../skillicons/L1-11B.png","Levels":{"0":{"Description":"Tornado moves towards the front.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathTornado_B.{{auto}}"}},"1":{"Effect":"","RequiredLevel":44,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":49,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":54,"RequiredSP":2}}},"EvilTrinity":{"Name":"Evil Trinity","ID":21,"Icon":"../skillicons/L1-12.png","Levels":{"0":{"Description":"The Grim Reaper with two scythes appears, swinging them along with Lily. The ground smash creates three shock waves that will hit the enemies in the range.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_EvilTrinity.{{auto}}"}},"1":{"Effect":"","RequiredLevel":34,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":38,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":42,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":46,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":50,"RequiredSP":3}}},"DeathGuillotine":{"Name":"Death Guillotine","ID":22,"Icon":"../skillicons/L1-13.png","Levels":{"0":{"Description":"Surrounds and restraints the enemies with chains, pushing them under a summoning gigantic guillotine.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathGuillotine.{{auto}}"}},"1":{"Effect":"","RequiredLevel":42,"RequiredSP":1},"2":{"Effect":"","RequiredLevel":45,"RequiredSP":1},"3":{"Effect":"","RequiredLevel":48,"RequiredSP":2},"4":{"Effect":"","RequiredLevel":51,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":54,"RequiredSP":3}}},"EvilSlash-Kusarigama":{"Visible":false,"Name":"Sickle and Chain","ID":23,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_Mcythe_Skill_EvilSlash_A.png","Levels":{"0":{"Description":"鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_EvilSlash_A.{{auto}}"}},"1":{"Effect":"Damage: 384%\nSA Damage: 304%","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"Damage: 423%\nSA Damage: 335%","RequiredLevel":58,"RequiredSP":1},"3":{"Effect":"Damage: 498%\nSA Damage: 394%","RequiredLevel":60,"RequiredSP":2}}},"DeathScythe-Afterimage":{"Visible":false,"Name":"Afterimage","ID":24,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_Mcythe_Skill_DeathScythe_A.png","Levels":{"0":{"Description":"The afterimage of the death god rushes towards the enemy and attacks according to the attack action of Lily.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_DeathScythe_A.{{auto}}"}},"1":{"Effect":"Damage: 628%\nSA Damage: 1168%","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"Damage: 710%\nSA Damage: 1198%","RequiredLevel":59,"RequiredSP":1},"3":{"Effect":"Damage: 880%\nSA Damage: 1484%","RequiredLevel":60,"RequiredSP":2}}},"BloodyBlossom":{"Name":"Bloody Blossom","ID":25,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_Mcythe_Skill_BloodyBlossom.png","Assignable":false,"Levels":{"0":{"Description":"After attacking while swiftly rotating the scythe of both hands in the air, performing a powerful cross strike attack.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FallingPetals.{{auto}}"}},"1":{"Effect":"Damage: 752%\nSA Damage: 480%\nSG Cost: 30\nCooldown: 28s","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"Damage: 828%\nSA Damage: 504%\nSG Cost: 30\nCooldown: 28s","RequiredLevel":57,"RequiredSP":1},"3":{"Effect":"Damage: 927%\nSA Damage: 550%\nSG Cost: 30\nCooldown: 28s","RequiredLevel":58,"RequiredSP":2},"4":{"Effect":"Damage: 1057%\nSA Damage: 616%\nSG Cost: 30\nCooldown: 28s","RequiredLevel":59,"RequiredSP":2},"5":{"Effect":"Damage: 1247%\nSA Damage: 708%\nSG Cost: 30\nCooldown: 28s","RequiredLevel":60,"RequiredSP":3}}},"FuryScythe":{"Name":"Fury Scythe","ID":26,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_Mcythe_Skill_Furymach.png","Levels":{"0":{"Description":"Joining the sickle and the scissors and do a lash rush in the front.\nIt attacks enemies and moves forward by operation.\n\n[1] Left click: Cuts forward enemies and makes short rush.\n\n[2] Right click: It moves quickly towards the front.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Skill_FuryMach.{{auto}}"}},"1":{"Effect":"Damage: 2000%\nSA Damage: 2130%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 375%\nSA Damage: 399%","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"Damage: 2200%\nSA Damage: 2236%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 412%\nSA Damage: 419%","RequiredLevel":57,"RequiredSP":1},"3":{"Effect":"Damage: 2464%\nSA Damage: 2438%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 462%\nSA Damage: 457%","RequiredLevel":58,"RequiredSP":2},"4":{"Effect":"Damage: 2808%\nSA Damage: 2730%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 526%\nSA Damage: 511%","RequiredLevel":59,"RequiredSP":2},"5":{"Effect":"Damage: 3314%\nSA Damage: 3140%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 621%\nSA Damage: 588%","RequiredLevel":60,"RequiredSP":3}}},"BasicAttackMastery":{"Passive":true,"Name":"Basic Attack Mastery","ID":1002,"DefaultLevel":1,"Icon":"../skillicons/Sh-1.png","Levels":{"0":{"Description":"Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Attack_01.{{auto}}"}},"1":{"Effect":"SG Gain +20%.\nUnlock alternative attack “A”","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"SG Gain +70%.\nUnlock additional basic attack","RequiredLevel":5,"RequiredSP":1,"Preview":{"Video":"../skillpreviews/lily/B_Attack_02.{{auto}}"}},"3":{"Effect":"SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack","RequiredLevel":10,"RequiredSP":2,"Preview":{"Video":"../skillpreviews/lily/B_Attack_04_02.{{auto}}"}},"4":{"Effect":"SG Gain +200%\nUnlock alternative attack “C”","RequiredLevel":15,"RequiredSP":2},"5":{"Effect":"","RequiredLevel":20,"RequiredSP":2,"Preview":{"Video":"../skillpreviews/lily/B_Attack_05.{{auto}}"}}}},"SpecialAbilityMastery":{"Passive":true,"DefaultLevel":1,"ID":1001,"Name":"Special Ability Mastery","Icon":"../skillicons/Sh-2l.png","Levels":{"0":{"Description":"[Ground]\nQuickly dash forward, enemies in the way are inflicted with debuff effect.\n[Air]\nPerformed a slashing rotation. On additional inputs, continue slashing.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_S_Attack_N_01.{{auto}}"}},"1":{"Effect":"[Ground]\nDamage: 164%\nSA Damage: 119%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\n[Air]\nDamage: 239%\nSA Damage: 119%\nCooldown: 10s","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"[Ground]\nDamage: 173%\nSA Damage: 125%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +20%\n[Air]\nDamage: 251%\nSA Damage: 125%\nCooldown: 10s\nSG Gain: +20%","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"[Ground]\nDamage: 193%\nSA Damage: 140%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +70%\n[Air]\nDamage: 281%\nSA Damage: 140%\nCooldown: 10s\nSG Gain: +70%","RequiredLevel":30,"RequiredSP":2}}},"EmergencyDodge":{"Passive":true,"Name":"Emergency Dodge","ID":1004,"DefaultLevel":1,"Icon":"../skillicons/Sh-3.png","Levels":{"0":{"Description":"Swiftly dodge in a direction. Negate damage during an emergency dodge.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Evade_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 20","RequiredLevel":0,"RequiredSP":0}}},"RisingRoll":{"Passive":true,"Name":"Rising Roll","ID":1003,"DefaultLevel":1,"Icon":"../skillicons/Sh-4.png","Levels":{"0":{"Description":"When downed, get up by rolling in a direction. During the roll, damage is negated","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Roll_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 25","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Stamina Cost: 15","RequiredLevel":17,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 15\nFaster Rolling Speed","RequiredLevel":34,"RequiredSP":2}}},"Dash":{"Passive":true,"Name":"Dash","DefaultLevel":1,"ID":1006,"Icon":"../skillicons/Sh-5.png","Levels":{"0":{"Description":"Swiftly dash forward","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Run_F.{{auto}}"}},"1":{"Effect":"","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Faster Dashing Speed","RequiredLevel":25,"RequiredSP":2}}},"RisingAttack":{"Passive":true,"Name":"Rising Attack","ID":1005,"DefaultLevel":1,"Icon":"../skillicons/Sh-6.png","Levels":{"0":{"Description":"While downed, get up while damaging surrounding enemies","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_Rise_Attack.{{auto}}"}},"1":{"Effect":"Stamina Cost: 30\nInvincibility Duration: 1 seconds","RequiredLevel":0,"RequiredSP":0},"2":{"Effect":"Stamina Cost: 20\nInvincibility Duration: 1 seconds","RequiredLevel":18,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 20\nInvincibility Duration: 3 seconds","RequiredLevel":36,"RequiredSP":2}}},"DashAttack":{"Passive":true,"Name":"Dash Attack","DefaultLevel":1,"ID":1008,"Icon":"../skillicons/Sh-7.png","Levels":{"0":{"Description":"Perform an attack while dashing. Different character does different attacks. ","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_N_Attack_Dash.{{auto}}"}},"1":{"Effect":"Damage: 115%\nSA Damage: 38%","RequiredLevel":0,"RequiredSP":0}}},"SpecialDodge":{"Passive":true,"Name":"Special Dodge","ID":1007,"Icon":"../skillicons/Sh-8.png","Levels":{"0":{"Description":"Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_S_Evade_F.{{auto}}"}},"1":{"Effect":"Stamina Cost: 40\nCooldown: 60 seconds","RequiredLevel":4,"RequiredSP":1},"2":{"Effect":"Stamina Cost: 40\nCooldown: 50 seconds","RequiredLevel":21,"RequiredSP":1},"3":{"Effect":"Stamina Cost: 40\nCooldown: 40 seconds","RequiredLevel":38,"RequiredSP":2}}},"SpecialDashAttack":{"Passive":true,"Name":"Special Dash Attack","ID":1010,"Icon":"../skillicons/Sh-9.png","Levels":{"0":{"Description":"Performs a special attack while dashing. Different characters do different special attacks","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/B_S_Attack_N_Dash.{{auto}}"}},"1":{"Effect":"Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds","RequiredLevel":13,"RequiredSP":1}}},"StaminaMastery":{"Passive":true,"Name":"Stamina Mastery","ID":1009,"Icon":"../skillicons/Sh-10.png","Levels":{"0":{"Description":"Increases stamina recovery rate","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"Stamina Recovery Rate: +10%","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"Stamina Recovery Rate: +20%","RequiredLevel":15,"RequiredSP":1},"3":{"Effect":"Stamina Recovery Rate: +30%","RequiredLevel":20,"RequiredSP":2},"4":{"Effect":"Stamina Recovery Rate: +40%","RequiredLevel":25,"RequiredSP":2},"5":{"Effect":"Stamina Recovery Rate: +50%","RequiredLevel":30,"RequiredSP":3}}},"RampagingMadness":{"Passive":true,"Name":"Rampaging Madness","ID":1013,"RequireClass":{"CompareType":"atleast","ClassIndex":1},"Icon":"../skillicons/Icon_Mcythe_Skill_SGPassive2.png","Levels":{"0":{"Description":"Every 1 minute while SG is above 70%, decrease SG consumption, increase critical attack power, increase defense penetration for 15 seconds.","Effect":"","RequiredLevel":0,"RequiredSP":0,"Preview":{"Video":"../skillpreviews/lily/Contributor_lily_RampagingMadness.{{auto}}"}},"1":{"Effect":"SG consumption decrease ?%.\nCritical attack power increase ???.\nDefense penetration increase ?%.","RequiredLevel":57,"RequiredSP":1},"2":{"Effect":"SG consumption decrease ?%.\nCritical attack power increase ????.\nDefense penetration increase ?%.","RequiredLevel":58,"RequiredSP":1},"3":{"Effect":"SG consumption decrease 15%.\nCritical attack power increase 2000.\nDefense penetration increase 20%.","RequiredLevel":59,"RequiredSP":2}}},"IntensifyingMadness":{"Passive":true,"Name":"Intensifying Madness","ID":1011,"RowSpan":{"0":2,"1":1},"Icon":"../skillicons/LP1-2.png","Levels":{"0":{"Description":"Increase Critical Damage","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"Critical Damage Increase by 400","RequiredLevel":10,"RequiredSP":1},"2":{"Effect":"Critical Damage Increase by 800","RequiredLevel":20,"RequiredSP":1},"3":{"Effect":"Critical Damage Increase by 1300","RequiredLevel":30,"RequiredSP":2}}},"MadScythe":{"Passive":true,"DefaultLevel":1,"ID":1012,"RowSpan":2,"Name":"Mad Scythe","Icon":"../skillicons/LP1-1.png","Levels":{"0":{"Description":"Gain SG when hitting an enemy. Passively gain SG in set intervals. Collecting a certain amount of SG will activate Madness Mode","Effect":"","RequiredLevel":0,"RequiredSP":0},"1":{"Effect":"Attack Power +5%\nCritical Rate +5%","RequiredLevel":10,"RequiredSP":0}}}}}
+{
+    "CharacterName": "릴리 블룸메르헨",
+    "CharacterWikiURL": "https://namu.wiki/w/%EB%A6%B4%EB%A6%AC%20%EB%B8%94%EB%A3%B8%EB%A9%94%EB%A5%B4%ED%97%A8",
+    "MaxLevel": 63,
+    "AvailableClass": {
+        "0": {
+            "Name": "기본",
+            "Cover": "../images/bg-lily1.png"
+        },
+        "1": {
+            "Name": "승급",
+            "Cover": "../images/bg-lily2.png",
+            "RequiredLevel": 57
+        }
+    },
+    "Skills": {
+        "EvilSlash": {
+            "Name": "이블 슬래쉬",
+            "DefaultLevel": 1,
+            "ID": 1,
+            "Icon": "../skillicons/L1-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "한 발짝 전진하며 낫을 빠르게 회전시켜 공격한 후 마지막 타격으로 적을 밀쳐냅니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_EvilSlash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 182%\nSA Damage: 196%\nSG Cost: 30\nCooldown: 10s",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Damage: 191%\nSA Damage: 206%\nSG Cost: 30\nCooldown: 10s",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Damage: 214%\nSA Damage: 230%\nSG Cost: 30\nCooldown: 10s",
+                    "RequiredLevel": 7,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "Damage: 237%\nSA Damage: 255%\nSG Cost: 30\nCooldown: 10s",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "Damage: 273%\nSA Damage: 294%\nSG Cost: 30\nCooldown: 10s",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "EvilSlash-Kusarigama"
+            ]
+        },
+        "SpinningDevil": {
+            "Name": "스피닝 데블",
+            "DefaultLevel": 1,
+            "ID": 2,
+            "Icon": "../skillicons/L1-2.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫으로 전방의 지면을 찍은 후 그 힘을 이용하여 전진 회전 발차기 공격을 한 뒤 바로 회전 공격을 합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_SpinningDevil.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 6,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 11,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "ScytheCutter": {
+            "Name": "사이드커터",
+            "DefaultLevel": 1,
+            "ID": 3,
+            "Icon": "../skillicons/L1-3.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫을 빠르게 뒤로 젖혔다가 전방을 향해 올려칩니다. 피격된 적은 공중에 떠오릅니다.",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_ScytheCuter.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 5,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 9,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "ScytheCutter-ChargeAttack"
+            ]
+        },
+        "ScytheCutter-ChargeAttack": {
+            "Visible": false,
+            "Name": "차징",
+            "ID": 4,
+            "Icon": "../skillicons/L1-3A.png",
+            "Levels": {
+                "0": {
+                    "Description": "차징 시 성능이 1.8배로 증가합니다.\n적들과 함께 공중에 떠오릅니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_ScytheCuter_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                }
+            }
+        },
+        "GrimCountdown": {
+            "Name": "그림 카운트다운",
+            "ID": 5,
+            "Icon": "../skillicons/L1-4.png",
+            "Levels": {
+                "0": {
+                    "Description": "몸을 회전시켜 적을 밀쳐낸 후 동시에 사신이 소환되어 낫을 크게 휘두릅니다.",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_GrimCountdown.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 8,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 12,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "GrimCountdown-Lifesteal"
+            ]
+        },
+        "GrimCountdown-Lifesteal": {
+            "Visible": false,
+            "Name": "HP 흡수",
+            "ID": 6,
+            "Icon": "../skillicons/L1-4A.png",
+            "Levels": {
+                "0": {
+                    "Description": "피격된 적에게 HP를 뺏앗아 자신의 HP를 회복합니다.\n이 효과는 1명에게만 적용됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_GrimCountdown_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "FearChain": {
+            "Name": "피어 체인",
+            "ID": 7,
+            "Icon": "../skillicons/L1-5.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방에 사신을 소환합니다. 소환된 사신은 주변의 적들에게 사슬을 연결하여 자신의 위치로 끌어들입니다.",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FearChain_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 6,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 14,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "FearChain-RangeIncrease"
+            ]
+        },
+        "FearChain-RangeIncrease": {
+            "Visible": false,
+            "Name": "범위증가",
+            "ID": 8,
+            "Icon": "../skillicons/L1-5A.png",
+            "Levels": {
+                "0": {
+                    "Description": "공격 범위가 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FearChain_A_01.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 1,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FearChain_A_02.{{auto}}"
+                    }
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 2,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FearChain_A_03.{{auto}}"
+                    }
+                }
+            }
+        },
+        "DeathGrinder": {
+            "Name": "데스 그라인더",
+            "ID": 9,
+            "Icon": "../skillicons/L1-6.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫을 부메랑처럼 회전시켜 전방으로 던졌다가 받으면서 공격 합니다. 피격된 적은 낫의 이동 방향에 따라 피격 위치가 변화합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathGrinder.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 8,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 12,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 16,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "DeathGrinder-SummonGrimReaper",
+                "DeathGrinder-Whirlwind"
+            ]
+        },
+        "DeathGrinder-SummonGrimReaper": {
+            "Visible": false,
+            "Name": "사신 소환",
+            "ID": 10,
+            "Icon": "../skillicons/L1-6A.png",
+            "Levels": {
+                "0": {
+                    "Description": "사신이 소환되어 추가로 낫을 던집니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathGrinder_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 29,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DeathGrinder-Whirlwind": {
+            "Visible": false,
+            "Name": "소용돌이",
+            "ID": 11,
+            "Icon": "../skillicons/L1-6B.png",
+            "Levels": {
+                "0": {
+                    "Description": "날아간 낫이 소용돌이 형태로 전환됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathGrinder_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 24,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 29,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DeathScythe": {
+            "Name": "데스 사이드",
+            "ID": 12,
+            "Icon": "../skillicons/L1-7.png",
+            "Levels": {
+                "0": {
+                    "Description": "사신이 나타나 주변에 있는 적들을 당겨오며 공격을 합니다. 이후 끌어들인 적을 날려버리거나 띄우는 공격을 할 수 있습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathScythe.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "DeathScythe-Afterimage"
+            ]
+        },
+        "CruelSlash": {
+            "Name": "크루얼 슬래쉬",
+            "ID": 13,
+            "Icon": "../skillicons/L1-8.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫을 언월도 형태로 변형하여 공격 준비 자세를 취합니다. 이후 제자리에서 매우 빠르게 추가 공격을 합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_CruelSlash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 23,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 28,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "CruelSlash-DefensePenetration",
+                "CruelSlash-CriticalRateIncrease"
+            ]
+        },
+        "CruelSlash-DefensePenetration": {
+            "Visible": false,
+            "Name": "방어도 관통",
+            "ID": 14,
+            "Icon": "../skillicons/L1-8A.png",
+            "Levels": {
+                "0": {
+                    "Description": "피격된 적에게 방어도를 일정량 무시합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_CruelSlash_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 43,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "CruelSlash-CriticalRateIncrease": {
+            "Visible": false,
+            "Name": "치명타 증가",
+            "ID": 15,
+            "Icon": "../skillicons/L1-8B.png",
+            "Levels": {
+                "0": {
+                    "Description": "공격 중 치명타 확률이 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_CruelSlash_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 33,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 43,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "GrimReaper": {
+            "Name": "그림 리퍼",
+            "ID": 16,
+            "Icon": "../skillicons/L1-9.png",
+            "Assignable": false,
+            "Levels": {
+                "0": {
+                    "Description": "공중 상태에서 전방에 사신을 소환하여 지면에 위치하고 있는 적을 띄웁니다. 이미 공중 상태에 있는 적에게도 동일한 피해를 줍니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_GrimReaper.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 22,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 27,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 37,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "ForceRegion": {
+            "Name": "포스 리전",
+            "ID": 17,
+            "Icon": "../skillicons/L1-10.png",
+            "Levels": {
+                "0": {
+                    "Description": "소환된 사신이 포효하면서 범위 내에 있는 자신 및 파티원에게 치명타 확률을 높여주는 버프를 걸어줍니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_ForceRegion.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 26,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 31,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 41,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "DeathTornado": {
+            "Name": "데스 토네이도",
+            "ID": 18,
+            "Icon": "../skillicons/L1-11.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방에 강력한 회오리 바람을 생성하여 적을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathTornado.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 28,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 32,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 40,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 3
+                }
+            },
+            "Extensions": [
+                "DeathTornado-Induction",
+                "DeathTornado-AreaWidener"
+            ]
+        },
+        "DeathTornado-Induction": {
+            "Visible": false,
+            "Name": "유도",
+            "ID": 19,
+            "Icon": "../skillicons/L1-11A.png",
+            "Levels": {
+                "0": {
+                    "Description": "생성된 회오리가 적들을 향해 이동합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathTornado_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 49,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DeathTornado-AreaWidener": {
+            "Visible": false,
+            "Name": "광역",
+            "ID": 20,
+            "Icon": "../skillicons/L1-11B.png",
+            "Levels": {
+                "0": {
+                    "Description": "캐릭터 주변에 거대한 회오리가 생성됩니다.\n[공중에 띄어진 적에게는 추가데미지를 줍니다]",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathTornado_B.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 44,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 49,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "EvilTrinity": {
+            "Name": "이블 트리니티",
+            "ID": 21,
+            "Icon": "../skillicons/L1-12.png",
+            "Levels": {
+                "0": {
+                    "Description": "사신이 두 개의 낫을 가지고 소환되어 미스트사이드와 함께 점프하여 지면을 내려찍습니다. 이때 지면 충격파가 세 갈래로 뻗어나가며 해당 지점에 위치한 적들을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_EvilTrinity.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 42,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 46,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 50,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "DeathGuillotine": {
+            "Name": "데스 길로틴",
+            "ID": 22,
+            "Icon": "../skillicons/L1-13.png",
+            "Levels": {
+                "0": {
+                    "Description": "주변의 적들에게 사슬을 걸어 잡아당긴 후 거대한 단두대를 소환해 적들을 밀어 넣습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathGuillotine.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 42,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "",
+                    "RequiredLevel": 45,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "",
+                    "RequiredLevel": 48,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "",
+                    "RequiredLevel": 51,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 54,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "EvilSlash-Kusarigama": {
+            "Visible": false,
+            "Name": "무기 교체",
+            "ID": 23,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_EvilSlash_A.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫 대신 사슬낫을 이용하여 더 넓은 범위의 적을 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_EvilSlash_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 384%\nSA Damage: 304%",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Damage: 423%\nSA Damage: 335%",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Damage: 498%\nSA Damage: 394%",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DeathScythe-Afterimage": {
+            "Visible": false,
+            "Name": "잔상",
+            "ID": 24,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_DeathScythe_A.png",
+            "Levels": {
+                "0": {
+                    "Description": "릴리의 동작에 맞춰 사신의 잔상이 적들을 향해 돌진하며 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_DeathScythe_A.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 628%\nSA Damage: 1168%",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Damage: 710%\nSA Damage: 1198%",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Damage: 880%\nSA Damage: 1484%",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "BloodyBlossom": {
+            "Name": "블러디 블로섬",
+            "ID": 25,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_BloodyBlossom.png",
+            "Assignable": false,
+            "Levels": {
+                "0": {
+                    "Description": "공중에서 양손에 사이드를 들고 빠르게 회전하며 벤 후, 마무리로 강력한 X자 공격을 선보입니다.\n\n[공중에 띄어진 적에게는 추가데미지를 줍니다]",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FallingPetals.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 752%\nSA Damage: 480%\nSG Cost: 30\nCooldown: 28s",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Damage: 828%\nSA Damage: 504%\nSG Cost: 30\nCooldown: 28s",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Damage: 927%\nSA Damage: 550%\nSG Cost: 30\nCooldown: 28s",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "Damage: 1057%\nSA Damage: 616%\nSG Cost: 30\nCooldown: 28s",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "Damage: 1247%\nSA Damage: 708%\nSG Cost: 30\nCooldown: 28s",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "FuryScythe": {
+            "Name": "퓨리 마하",
+            "ID": 26,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_Furymach.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫과 사슬낫을 결합 후, 전방으로 연속 돌진합니다.\n조작에 따라 적을 베거나 전방으로 이동합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Skill_FuryMach.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 2000%\nSA Damage: 2130%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 375%\nSA Damage: 399%",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Damage: 2200%\nSA Damage: 2236%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 412%\nSA Damage: 419%",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Damage: 2464%\nSA Damage: 2438%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 462%\nSA Damage: 457%",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "Damage: 2808%\nSA Damage: 2730%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 526%\nSA Damage: 511%",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "Damage: 3314%\nSA Damage: 3140%\nSG Cost: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 621%\nSA Damage: 588%",
+                    "RequiredLevel": 60,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "LeashedBeast": {
+            "Name": "리쉬드 비스트",
+            "ID": 27,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_LeashedBeast.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방에 소울 에너지 구체를 소환 후, 뛰어올라 전력으로 베어냅니다. 구체는 주위의 적을 끌어당기며 공격하다가 베어진 이후 폭발합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/C_Skill_LeashedBest.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "???",
+                    "RequiredLevel": 62,
+                    "RequiredSP": 1
+                }
+            }
+        },
+        "BasicAttackMastery": {
+            "Passive": true,
+            "Name": "기본 공격 마스터리",
+            "ID": 1002,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "낫을 휘둘러 공격합니다.\n스킬 레벨이 올라갈수록 연계 공격의 종류가 추가되고 공격 시 SG를 획득 할 수 있습니다.\nSG획득량은 연계 단계와 몬스터 등급에 따라 크게 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Attack_01.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+                    "RequiredLevel": 5,
+                    "RequiredSP": 1,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Attack_02.{{auto}}"
+                    }
+                },
+                "3": {
+                    "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 2,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Attack_04_02.{{auto}}"
+                    }
+                },
+                "4": {
+                    "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Attack_05.{{auto}}"
+                    }
+                }
+            }
+        },
+        "SpecialAbilityMastery": {
+            "Passive": true,
+            "DefaultLevel": 1,
+            "ID": 1001,
+            "Name": "특수 능력 마스터리",
+            "Icon": "../skillicons/Sh-2l.png",
+            "Levels": {
+                "0": {
+                    "Description": "[지상]\n순간적으로 이동하며 적들을 느리게 만듭니다..\n[공중]\n공중에서 사용 시 회전 베기 공격을 하며 추가 입력시 낙하하며 공격합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_S_Attack_N_01.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "[Ground]\nDamage: 164%\nSA Damage: 119%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\n[Air]\nDamage: 239%\nSA Damage: 119%\nCooldown: 10s",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "[Ground]\nDamage: 173%\nSA Damage: 125%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +20%\n[Air]\nDamage: 251%\nSA Damage: 125%\nCooldown: 10s\nSG Gain: +20%",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "[Ground]\nDamage: 193%\nSA Damage: 140%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +70%\n[Air]\nDamage: 281%\nSA Damage: 140%\nCooldown: 10s\nSG Gain: +70%",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "EmergencyDodge": {
+            "Passive": true,
+            "Name": "긴급 회피",
+            "ID": 1004,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-3.png",
+            "Levels": {
+                "0": {
+                    "Description": "지정한 방향으로 빠르게 이동합니다.\n긴급 회피 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Evade_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 20",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                }
+            }
+        },
+        "RisingRoll": {
+            "Passive": true,
+            "Name": "구르기",
+            "ID": 1003,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-4.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격을 받아 다운되어 있는 상태에서 지정한 방향으로 빠르게 구르며 일어섭니다.\n구르기 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Roll_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 25",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 15",
+                    "RequiredLevel": 17,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+                    "RequiredLevel": 34,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "Dash": {
+            "Passive": true,
+            "Name": "대쉬",
+            "DefaultLevel": 1,
+            "ID": 1006,
+            "Icon": "../skillicons/Sh-5.png",
+            "Levels": {
+                "0": {
+                    "Description": "전방을 향하여 빠르게 질주합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Run_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Faster Dashing Speed",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "RisingAttack": {
+            "Passive": true,
+            "Name": "기상 공격",
+            "ID": 1005,
+            "DefaultLevel": 1,
+            "Icon": "../skillicons/Sh-6.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격을 받아 다운되어 있는 상태에서 주변의 적들에게 공격을 하며 일어납니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_Rise_Attack.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+                    "RequiredLevel": 18,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+                    "RequiredLevel": 36,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "DashAttack": {
+            "Passive": true,
+            "Name": "대쉬 어택",
+            "DefaultLevel": 1,
+            "ID": 1008,
+            "Icon": "../skillicons/Sh-7.png",
+            "Levels": {
+                "0": {
+                    "Description": "달리는 도중 낫을 크게 휘둘러 적을 밀쳐냅니다.\n공격 시 SG를 획득할 수 있습니다.\nSG 획득량은 연계 단계와 몬스터 등급에 따라 크게 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_N_Attack_Dash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 115%\nSA Damage: 38%",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                }
+            }
+        },
+        "SpecialDodge": {
+            "Passive": true,
+            "Name": "특수 회피",
+            "ID": 1007,
+            "Icon": "../skillicons/Sh-8.png",
+            "Levels": {
+                "0": {
+                    "Description": "적에게 피격당하는 도중 빠르게 이동합니다.\n특수 회피 상태에서는 어떤 공격도 받지 않습니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_S_Evade_F.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+                    "RequiredLevel": 4,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+                    "RequiredLevel": 21,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+                    "RequiredLevel": 38,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "SpecialDashAttack": {
+            "Passive": true,
+            "Name": "특수 대쉬 어택",
+            "ID": 1010,
+            "Icon": "../skillicons/Sh-9.png",
+            "Levels": {
+                "0": {
+                    "Description": "달리는 도중 전방으로 낫을 올려 치며 공격을 합니다.\n공격 시 SG를 획득할 수 있습니다.\nSG 획득량은 연계 단계와 몬스터 등급에 따라 크게 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/B_S_Attack_N_Dash.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+                    "RequiredLevel": 13,
+                    "RequiredSP": 1
+                }
+            }
+        },
+        "StaminaMastery": {
+            "Passive": true,
+            "Name": "스태미나 마스터리",
+            "ID": 1009,
+            "Icon": "../skillicons/Sh-10.png",
+            "Levels": {
+                "0": {
+                    "Description": "스태미나 회복량이 영구적으로 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "Stamina Recovery Rate: +10%",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Stamina Recovery Rate: +20%",
+                    "RequiredLevel": 15,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Stamina Recovery Rate: +30%",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 2
+                },
+                "4": {
+                    "Effect": "Stamina Recovery Rate: +40%",
+                    "RequiredLevel": 25,
+                    "RequiredSP": 2
+                },
+                "5": {
+                    "Effect": "Stamina Recovery Rate: +50%",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 3
+                }
+            }
+        },
+        "RampagingMadness": {
+            "Passive": true,
+            "Name": "폭주하는 광기",
+            "ID": 1013,
+            "RequireClass": {
+                "CompareType": "atleast",
+                "ClassIndex": 1
+            },
+            "Icon": "../skillicons/Icon_Mcythe_Skill_SGPassive2.png",
+            "Levels": {
+                "0": {
+                    "Description": "SG이 70% 이상일 경우, 1분마다 15초간 SG 소모량 15% 감소, 치명타 공격력 2000, 방어력 관통 20% 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0,
+                    "Preview": {
+                        "Video": "../skillpreviews/lily/Contributor_lily_RampagingMadness.{{auto}}"
+                    }
+                },
+                "1": {
+                    "Effect": "SG consumption decrease ?%.\nCritical attack power increase ???.\nDefense penetration increase ?%.",
+                    "RequiredLevel": 57,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "SG consumption decrease ?%.\nCritical attack power increase ????.\nDefense penetration increase ?%.",
+                    "RequiredLevel": 58,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "SG consumption decrease 15%.\nCritical attack power increase 2000.\nDefense penetration increase 20%.",
+                    "RequiredLevel": 59,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "IntensifyingMadness": {
+            "Passive": true,
+            "Name": "넘치는 광기",
+            "ID": 1011,
+            "RowSpan": {
+                "0": 2,
+                "1": 1
+            },
+            "Icon": "../skillicons/LP1-2.png",
+            "Levels": {
+                "0": {
+                    "Description": "치명타 피해량이 영구적으로 증가합니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "Critical Damage Increase by 400",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "Critical Damage Increase by 800",
+                    "RequiredLevel": 20,
+                    "RequiredSP": 1
+                },
+                "3": {
+                    "Effect": "Critical Damage Increase by 1300",
+                    "RequiredLevel": 30,
+                    "RequiredSP": 2
+                }
+            }
+        },
+        "MadScythe": {
+            "Passive": true,
+            "DefaultLevel": 1,
+            "ID": 1012,
+            "RowSpan": 2,
+            "Name": "광기의 서슬",
+            "Icon": "../skillicons/LP1-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "기본 공격 성공 시 SG를 회복합니다.\n일정 시간마다 자동으로 SG를 회복합니다.\nSG가 일정 수치 이상 쌓이게 되면 광폭화 상태가 됩니다.",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "Attack Power +5%\nCritical Rate +5%",
+                    "RequiredLevel": 10,
+                    "RequiredSP": 0
+                }
+            }
+        }
+    }
+}

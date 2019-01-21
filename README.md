@@ -1,5 +1,15 @@
+# Additional features(추가된 기능)
+
+* Level up to 63 - 63레벨 확장
+* Add new skills - 신규 스킬 추가
+* Korean translate - 일부분 한국어 번역
+* Change wifi pages, Soulworker HQ to Kor wiki - 위키 페이지 변경, Soulworker HQ -> 나무위키
+* Add new character named by Chii Aruel - 새 캐릭터인 치이 아루엘 추가
+
 # SoulWorker Skill Simulator
 This is the skill tree simulator for SoulWorker game which is developed by Lion Games.
+
+This repo is forked on [Reayal's repo](https://github.com/Leayal/swskillsimu) and translation kor.
 
 # Disclaimer
 Content is available under [Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/3.0/) unless stated.

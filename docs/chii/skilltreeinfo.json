@@ -1,0 +1,36 @@
+{
+    "CharacterName": "치이 아루엘",
+    "CharacterWikiURL": "https://namu.wiki/w/%EC%B9%98%EC%9D%B4%20%EC%95%84%EB%A3%A8%EC%97%98",
+    "MaxLevel": 63,
+    "AvailableClass": {
+        "0": {
+            "Name": "출시예정",
+            "Cover": "../images/bg-chii1.png"
+        },
+        "1": {
+            "Name": "출시예정",
+            "Cover": "../images/bg-chii1.png"
+        }
+    },
+    "Skills": {
+        "None": {
+            "Name": "공개된 정보 없음",
+            "DefaultLevel": 1,
+            "ID": 1,
+            "Icon": "../skillicons/C1-1.png",
+            "Levels": {
+                "0": {
+                    "Description": "출시예정",
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                },
+                "1": {
+                    "Effect": "",
+                    "RequiredLevel": 0,
+                    "RequiredSP": 0
+                }
+            }
+        }
+    }
+}
