@@ -1,10 +1,10 @@
 # Additional features(추가된 기능)
 
-* Level up to 63 - 63레벨 확장
-* Add new skills - 신규 스킬 추가
-* Korean translate - 일부분 한국어 번역
-* Change wifi pages, Soulworker HQ to Kor wiki - 위키 페이지 변경, Soulworker HQ -> 나무위키
-* Add new character named by Chii Aruel - 새 캐릭터인 치이 아루엘 추가
+* Level up to 63 - 63레벨 확장(`docs/js/App.SkillTree_v1_1.js`)
+* Korean translation - 일부분 한국어 번역(`docs/js/App.SkillTree_v1_1.js`)
+* Add new skills - 신규 스킬 추가(`docs/CHARACTER/skilltreeinfo.json`)
+* Change wiki pages, Soulworker HQ to Kor wiki - 위키 페이지 변경, Soulworker HQ -> 나무위키(`docs/CHARACTER/skilltreeinfo.json`)
+* Add new character named by Chii Aruel - 새 캐릭터인 치이 아루엘 추가(`docs/chii`)
 
 [소울워커 스킬 시뮬레이터 한섭버전 바로가기](https://level120.github.io/swskillsimu/)
 
