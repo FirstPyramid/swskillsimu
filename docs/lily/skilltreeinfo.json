@@ -1,7 +1,7 @@
 {
     "CharacterName": "릴리 블룸메르헨",
     "CharacterWikiURL": "https://namu.wiki/w/%EB%A6%B4%EB%A6%AC%20%EB%B8%94%EB%A3%B8%EB%A9%94%EB%A5%B4%ED%97%A8",
-    "MaxLevel": 63,
+    "MaxLevel": 65,
     "AvailableClass": {
         "0": {
             "Name": "기본",
@@ -1043,6 +1043,11 @@
                 "1": {
                     "Effect": "???",
                     "RequiredLevel": 62,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "???",
+                    "RequiredLevel": 65,
                     "RequiredSP": 1
                 }
             }

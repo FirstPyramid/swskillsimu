@@ -1,7 +1,7 @@
 {
     "CharacterName": "스텔라 유니벨",
     "CharacterWikiURL": "https://namu.wiki/w/%EC%8A%A4%ED%85%94%EB%9D%BC%20%EC%9C%A0%EB%8B%88%EB%B2%A8",
-    "MaxLevel": 63,
+    "MaxLevel": 65,
     "AvailableClass": {
         "0": {
             "Name": "기본",
@@ -1053,6 +1053,11 @@
                 "1": {
                     "Effect": "???",
                     "RequiredLevel": 62,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "???",
+                    "RequiredLevel": 65,
                     "RequiredSP": 1
                 }
             }

@@ -1,7 +1,7 @@
 {
     "CharacterName": "어윈 아크라이트",
     "CharacterWikiURL": "https://namu.wiki/w/%EC%96%B4%EC%9C%88%20%EC%95%84%ED%81%AC%EB%9D%BC%EC%9D%B4%ED%8A%B8",
-    "MaxLevel": 63,
+    "MaxLevel": 65,
     "AvailableClass": {
         "0": {
             "Name": "기본",
@@ -1046,6 +1046,11 @@
                 "1": {
                     "Effect": "???",
                     "RequiredLevel": 62,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "???",
+                    "RequiredLevel": 65,
                     "RequiredSP": 1
                 }
             }

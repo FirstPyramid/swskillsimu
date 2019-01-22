@@ -1,6 +1,6 @@
 # Additional features(추가된 기능)
 
-* Level up to 63 - 63레벨 확장(`docs/js/App.SkillTree_v1_1.js`)
+* Level up to 65 - 65레벨 확장(`docs/js/App.SkillTree_v1_1.js`)
 * Korean translation - 일부분 한국어 번역(`docs/js/App.SkillTree_v1_1.js`)
 * Add new skills - 신규 스킬 추가(`docs/CHARACTER/skilltreeinfo.json`)
 * Change wiki pages, Soulworker HQ to Kor wiki - 위키 페이지 변경, Soulworker HQ -> 나무위키(`docs/CHARACTER/skilltreeinfo.json`)

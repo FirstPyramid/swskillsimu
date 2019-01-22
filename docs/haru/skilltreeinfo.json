@@ -1,7 +1,7 @@
 {
     "CharacterName": "하루 에스티아",
     "CharacterWikiURL": "https://namu.wiki/w/%ED%95%98%EB%A3%A8%20%EC%97%90%EC%8A%A4%ED%8B%B0%EC%95%84",
-    "MaxLevel": 63,
+    "MaxLevel": 65,
     "AvailableClass": {
         "0": {
             "Name": "기본",
@@ -1067,6 +1067,11 @@
                 "1": {
                     "Effect": "???",
                     "RequiredLevel": 62,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "???",
+                    "RequiredLevel": 65,
                     "RequiredSP": 1
                 }
             }

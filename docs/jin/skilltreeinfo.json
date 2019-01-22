@@ -1,7 +1,7 @@
 {
     "CharacterName": "진 세이파츠",
     "CharacterWikiURL": "https://namu.wiki/w/%EC%A7%84%20%EC%84%B8%EC%9D%B4%ED%8C%8C%EC%B8%A0",
-    "MaxLevel": 63,
+    "MaxLevel": 65,
     "AvailableClass": {
         "0": {
             "Name": "기본",
@@ -1079,6 +1079,11 @@
                 "1": {
                     "Effect": "???",
                     "RequiredLevel": 62,
+                    "RequiredSP": 1
+                },
+                "2": {
+                    "Effect": "???",
+                    "RequiredLevel": 65,
                     "RequiredSP": 1
                 }
             }
